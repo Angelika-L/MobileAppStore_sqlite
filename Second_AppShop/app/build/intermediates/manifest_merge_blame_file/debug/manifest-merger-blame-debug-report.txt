@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.second_appshop"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml
+10
+11    <permission android:name="android.permission.permis1" />
+11-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:5:5-61
+11-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:5:17-58
+12
+13    <uses-permission android:name="android.permission.permis1" />
+13-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:6:5-66
+13-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:6:22-63
+14
+15    <application
+15-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:8:5-30:19
+16        android:allowBackup="true"
+16-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\angelika.ligas\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:14:9-40
+25        <activity android:name="com.example.second_appshop.MainActivity" >
+25-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:15:9-20:20
+25-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:15:19-47
+26            <intent-filter>
+26-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:16:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:17:17-69
+27-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:18:17-77
+29-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service android:name="com.example.second_appshop.MyService" />
+33-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:21:9-46
+33-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:21:18-43
+34
+35        <receiver
+35-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:22:9-28:20
+36            android:name="com.example.second_appshop.MyBroadcastReceiver"
+36-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:23:13-48
+37            android:permission="com.example.my_permissions.MY_PERMISSION" >
+37-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:24:13-74
+38            <intent-filter>
+38-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:25:13-27:29
+39                <action android:name="com.example.second_appshop.EXAMPLE" />
+39-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:26:17-77
+39-->C:\Users\angelika.ligas\Desktop\pjatk\Second_AppShop\app\src\main\AndroidManifest.xml:26:25-74
+40            </intent-filter>
+41        </receiver>
+42    </application>
+43
+44</manifest>
